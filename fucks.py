@@ -44,7 +44,7 @@ todayFucks = 0
 layout = [
     [sg.Text('Fucks Not Given', font = bigfnt, justification='center')],
     [sg.Text('Today: ', font = fnt), sg.Text(todayFucks, size=(2,1), key='tFucks', font = fnt), sg.Text('Alltime: ', font = fnt), sg.Text(alltimeFucks, size=(3,1), key='aFucks', font = fnt)],
-    [sg.Button(' Don\'t Give A Fuck ', font = fnt), sg.Button(' Fuck It ', font = fnt)]
+    [sg.Button(' Don\'t Give A Fuck ', font = fnt), sg.Button(' Quit ', font = fnt)]
 
 ]
 
