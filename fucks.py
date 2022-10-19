@@ -54,7 +54,7 @@ while True:
     event, values = window.read()
 
     # Write alltimefucks and Exit
-    if event in (' Fuck It ', None):
+    if event in (' Quit ', None):
         fucksfile = open(fuckslocation, 'w')
         fucksfile.write(str(alltimeFucks))
         fucksfile.close()
